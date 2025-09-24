@@ -1,0 +1,12 @@
+mongodump --forceTableScan --uri mongodb+srv://admin:sifrah2024@sifrah.erm27to.mongodb.net/sifrah
+
+mongorestore
+
+mongorestore --uri mongodb+srv://admin:sifrah2024@sifrah.erm27to.mongodb.net
+
+mongorestore --uri mongodb+srv://jordyjosephmontalvo:hpzZon2o7xj72xHN@sifrah-test.yva2nme.mongodb.net/?retryWrites=true&w=majority&appName=sifrah-test
+
+mongodump --forceTableScan --uri mongodb+srv://jordyjosephmontalvo:sifrah-test2025@sifrah-test.yva2nme.mongodb.net/?retryWrites=true&w=majority&appName=sifrah-test
+
+
+mongorestore --uri "mongodb+srv://test:sifrah-test2025@sifrah-test.jxdag46.mongodb.net/" --nsFrom="sifrah.*" --nsTo="sifrah-test.*" --db sifrah-test ./dump/sifrah
