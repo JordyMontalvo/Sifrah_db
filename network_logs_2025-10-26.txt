@@ -1,0 +1,3557 @@
+
+Miker Neymar  Montoya Campos 
+puntos totales: 3522 [2037,1180,305,0,0,0,0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+bono residual: 134.77
+-: 0 Antonia Maria Reyes Gil 305 0.0385 15.02
+-: 0 Vilma Esther Bernuy Carrión 160 0.0385 15.02
+-: 1 Ermencia Ulloa Pizan 120 0.0385 12.01
+-: 1 Anali Esther  Luis Bernuy  120 0.0385 12.01
+-: 0 Monica Leonor  Cueto vivanco  160 0.0385 15.02
+-: 1 Maria Trinidad Bernuy Carrión 160 0.0385 15.02
+-: 2 Francisco  Acebedo águilas  187 0.0513 20.01
+-: 2 Antonieta Elizabeth  Lopez pizan  160 0.0513 20.01
+-: 3 Marina Emiliana Zaavedra Miranda 80 0.0513 10.67
+
+bono excedente: 17.5
+-: Antonia Maria Reyes Gil 15.5
+-: Vilma Esther Bernuy Carrión 1
+-: Monica Leonor  Cueto vivanco  1
+----------------------------------------------------------------
+
+CARLOS FABIO AMES CURI
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+FELIX PEDRO DAMIAN ROJAS
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+LUCILA FERNANDEZ VENTOCILLA
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+SALVADOR RICARDO HUAMAN POMA
+puntos totales: 10948 [5449,2529,1745,605,340,160,120,0,0,0,0,0,0,0,0,0,0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+JUAN MARVIN PARIONA POMA
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 12
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+JORGE LUIS BRICEÑO OCAS
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+HUGO CESAR PARI COAQUIRA
+puntos totales: 0 [0,0,0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+VILMA CAMPOS GALINDO
+puntos totales: 5329 [3642,822,385,240,120,120,0,0,0,0,0,0,0,0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+bono residual: 332.57
+-: 0 Miker Neymar  Montoya Campos  120 0.0385 12.01
+-: 0 MARIBEL VILMA ARTEAGA SANCHEZ 105 0.0385 10.51
+-: 1 Antonia Maria Reyes Gil 305 0.0385 15.02
+-: 1 Vilma Esther Bernuy Carrión 160 0.0385 15.02
+-: 2 Ermencia Ulloa Pizan 120 0.0513 16.01
+-: 1 Elvis Dany  Villanueva  120 0.0385 12.01
+-: 1 Isaias  Misma Chumbille 180 0.0385 15.02
+-: 0 Gladys Sonia  Ríos Guzman  120 0.0385 12.01
+-: 0 Gregoria  Escobar enrriquez  157 0.0385 15.02
+-: 2 Anali Esther  Luis Bernuy  120 0.0513 16.01
+-: 2 Miriam de los Angeles Mitma Ramirez 40 0.0513 5.34
+-: 1 Monica Leonor  Cueto vivanco  160 0.0385 15.02
+-: 2 Maria Trinidad Bernuy Carrión 160 0.0513 20.01
+-: 1 Jazmín Mileth Vilca arteaga  120 0.0385 12.01
+-: 2 Digna Enma Gervacio oruna 40 0.0513 5.34
+-: 1 Eunise Condor 145 0.0385 14.51
+-: 1 Lucero  Capcha Pacheco  160 0.0385 15.02
+-: 3 Francisco  Acebedo águilas  187 0.0513 20.01
+-: 2 Rufino Huaroc poma 120 0.0513 16.01
+-: 3 Antonieta Elizabeth  Lopez pizan  160 0.0513 20.01
+-: 2 Rocio ines  Centeno maximiliano  120 0.0513 16.01
+-: 1 Cielo Denyss Delgadillo Rios  120 0.0385 12.01
+-: 1 Anita Escobar Quichca 120 0.0385 12.01
+-: 4 Marina Emiliana Zaavedra Miranda 80 0.0513 10.67
+
+bono excedente: 0.7000000000000001
+-: Gregoria  Escobar enrriquez  0.7000000000000001
+----------------------------------------------------------------
+
+Edivia Quichca mancilla
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+MERCEDES RODRIGUEZ OLIVAS
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 7
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 32
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 2
+puntos totales: 0 [0,0,0,0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+ELSA PEREZ FERNANDEZ
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 11
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 14
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+ESTHER TORIBIA LUME PAUYAC
+puntos totales: 0 [0,0,0,0,0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+ROSARIA EMILIA ROBLES PAREDES
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+VICENTE CALDERON GONZALES
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jorge  Flores Eusebio 
+puntos totales: 0 [0,0,0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+JULIO CESAR MARIN SHAPIAMA
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Sifrah 
+puntos totales: 12028 [11643,200,185,0,0,0,0,0,0,0,0]
+reconsumo: 200
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 20
+-: Sifrah  10
+-: NORMA RAMOS FERNANDEZ 5
+-: ALAN JOHAN VIVANCO GUTIERREZ 5
+----------------------------------------------------------------
+
+ANA MARIA ALFARO VALDEZ
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+CESAR AVELINO BALDEON AVILA
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Magali vanessa linian ruiz 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+ABERCIO REYES CORDOVA
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+NILIA MARISOL CENTENO HUAMANLAZO
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 1
+puntos totales: 25 [25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+reconsumo: 40
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+ANA MARIA AYMA CCONOCHUILLCA
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 10
+puntos totales: 25 [25]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+GENIS CAPCHA ROJAS
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+LUCY GLADYS VASQUEZ BALDOCEDA
+puntos totales: 0 [0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Rocio Yulit Ponce Guerra 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+JENNY POMASON GUILLEN
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PEDRO CATALINO CASTILLO GALARRETA
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Katia Bersabed Perez Garcia
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Nancy Esther Gutierrez Soto
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+ARMANDO ARGOTE TERRAZAS
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Juan carlos   Barreto rivera
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+NORMA RAMOS FERNANDEZ
+puntos totales: 11443 [10948,335,120,40,0,0,0,0,0,0,0,0,0,0,0]
+reconsumo: 200
+rango: ACTIVO
+líneas activas: 0
+bono residual: 795.28
+-: 1 Miker Neymar  Montoya Campos  120 0.0385 12.01
+-: 0 HUGO CESAR PARI COAQUIRA 120 0.0385 12.01
+-: 0 VILMA CAMPOS GALINDO 120 0.0385 12.01
+-: 0 ESTHER TORIBIA LUME PAUYAC 120 0.0385 12.01
+-: 0 RAMON QUICHUA LIFONCIO 25 0.0385 2.50
+-: 1 MARIBEL VILMA ARTEAGA SANCHEZ 105 0.0385 10.51
+-: 0 Pedro Jesus Amado Vargas 40 0.0385 4.00
+-: 2 Antonia Maria Reyes Gil 305 0.0513 20.01
+-: 2 Vilma Esther Bernuy Carrión 160 0.0513 20.01
+-: 3 Ermencia Ulloa Pizan 120 0.0513 16.01
+-: 2 Elvis Dany  Villanueva  120 0.0513 16.01
+-: 1 Liborio Santiago Arqque Sisaya 240 0.0385 15.02
+-: 1 Lucy  Poma Porras 170 0.0385 15.02
+-: 2 Isaias  Misma Chumbille 180 0.0513 20.01
+-: 0 Aida Quintana Granizo 150 0.0385 15.02
+-: 1 Gladys Sonia  Ríos Guzman  120 0.0385 12.01
+-: 1 Gregoria  Escobar enrriquez  157 0.0385 15.02
+-: 3 Anali Esther  Luis Bernuy  120 0.0513 16.01
+-: 0 Brigida Fritz Manihuare  120 0.0385 12.01
+-: 1 Dan Fritz Manihuari 80 0.0385 8.01
+-: 3 Miriam de los Angeles Mitma Ramirez 40 0.0513 5.34
+-: 2 Monica Leonor  Cueto vivanco  160 0.0513 20.01
+-: 2 Kelita Doza Rivera 160 0.0513 20.01
+-: 2 Yohis Milian Guerrero 189 0.0513 20.01
+-: 3 Maria Trinidad Bernuy Carrión 160 0.0513 20.01
+-: 1 Yehosua Kewin  Gamarra Fritz  140 0.0385 14.01
+-: 0 Nicanor  Cisneros Hinostroza 40 0.0385 4.00
+-: 0 Esther Elsa Pareja Huaraca 120 0.0385 12.01
+-: 1 Loida Abigail Ramos solano 215 0.0385 15.02
+-: 2 Maruja  Huayllas Huayllas  120 0.0513 16.01
+-: 1 Renzo Abregú Olivares 155 0.0385 15.02
+-: 3 Gregorio  Huayllas Huayllas  120 0.0513 16.01
+-: 2 Jazmín Mileth Vilca arteaga  120 0.0513 16.01
+-: 0 Sheyla Milagritos  Maldonado Bermeo 160 0.0385 15.02
+-: 2 Tereza Días Vargas  80 0.0513 10.67
+-: 1 Naysha Adriana  Torres Pareja 40 0.0385 4.00
+-: 0 Katia  Macedo de la Cruz  80 0.0385 8.01
+-: 4 Luz María  Candia Samora 155 0.0513 20.01
+-: 2 Betsabe Garcia Lazo 160 0.0513 20.01
+-: 3 Digna Enma Gervacio oruna 40 0.0513 5.34
+-: 2 Eunise Condor 145 0.0513 19.34
+-: 2 Lucero  Capcha Pacheco  160 0.0513 20.01
+-: 3 Zelida Julca Palomino 170 0.0513 20.01
+-: 0 Prospera Huanaco Cervantes  160 0.0385 15.02
+-: 4 Francisco  Acebedo águilas  187 0.0513 20.01
+-: 3 Rufino Huaroc poma 120 0.0513 16.01
+-: 4 Antonieta Elizabeth  Lopez pizan  160 0.0513 20.01
+-: 2 Xiomi  Pezo Pezo  160 0.0513 20.01
+-: 3 Rocio ines  Centeno maximiliano  120 0.0513 16.01
+-: 2 Cielo Denyss Delgadillo Rios  120 0.0513 16.01
+-: 0 Angelica Melchor de la cruz  65 0.0385 6.51
+-: 2 Anita Escobar Quichca 120 0.0513 16.01
+-: 3 Fernando Raúl  Hilario Aspircueta 170 0.0513 20.01
+-: 0 Obed Daniel Meza Bautista  40 0.0385 4.00
+-: 5 Marina Emiliana Zaavedra Miranda 80 0.0256 5.32
+-: 3 Ana  Carrasco cabanillas 145 0.0513 19.34
+
+bono excedente: 10
+-: NORMA RAMOS FERNANDEZ 10
+----------------------------------------------------------------
+
+JUANA ZUÑIGA INOSTROZA
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+ISABEL CRUZ MORALES
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jhosimar Tanga jeronimo
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+LORENZO CACERES ALVITES
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 9
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+ANA MARIA JORGE HUARHUACHI
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+LUIS ANGEL PARI COAQUIRA
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Tatiana  Loroña
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Andrea Armandaris Rios
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 8
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+BERILDES RUIZ VILLANUEVA DE AMADOR
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+ELMER JAMIENZON NAVARRO SANTILLAN
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+MARCELA ESCANDON AGUI
+puntos totales: 0 [0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+ALAN JOHAN VIVANCO GUTIERREZ
+puntos totales: 0 [0]
+reconsumo: 200
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 10
+-: ALAN JOHAN VIVANCO GUTIERREZ 10
+----------------------------------------------------------------
+
+PRUEBA 29
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+MARIA ESTHER BLAZ CENTENO
+puntos totales: 0 [0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+RAMON QUICHUA LIFONCIO
+puntos totales: 0 [0,0,0,0]
+reconsumo: 25
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+MARIBEL VILMA ARTEAGA SANCHEZ
+puntos totales: 280 [160,120,0,0,0,0,0,0,0]
+reconsumo: 105
+rango: ACTIVO
+líneas activas: 0
+bono residual: 14.01
+-: 0 Elvis Dany  Villanueva  120 0.0385 5.00
+-: 0 Jazmín Mileth Vilca arteaga  120 0.0385 5.00
+-: 1 Digna Enma Gervacio oruna 40 0.0385 4.00
+----------------------------------------------------------------
+
+JESUS BENITO HUAUYA
+puntos totales: 0 [0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+MARIO ARTURO MATHEUS CHAVEZ
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+ANA BELEN VILLENA MORALES
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+FLOR DE MARIA VALDERRAMA TIRADO
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Ruth Mónica  Callupe requis
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Marivel Bueno Medina
+puntos totales: 0 [0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Milca Chávez  Chávez tarasona 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 18
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+wilson Carloman Garcia
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Yesica Gastelu quijana
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Julio Manuel Guerrero 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Gloria Esperanza  Ballena Purizaga
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Manuel Pelayo Zárate Chipana
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maria Guisela Pardo Bueno 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Pedro Jesus Amado Vargas
+puntos totales: 565 [410,155,0,0]
+reconsumo: 40
+rango: ACTIVO
+líneas activas: 0
+bono residual: 15.02
+-: 0 Liborio Santiago Arqque Sisaya 240 0.0385 5.00
+-: 0 Lucy  Poma Porras 170 0.0385 5.00
+-: 0 Renzo Abregú Olivares 155 0.0385 5.00
+----------------------------------------------------------------
+
+PRUEBA 4
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Beatriz Basilia   Ramírez Espíritu 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maria Azucena Salinas Moncada
+puntos totales: 0 [0,0,0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Antonia Maria Reyes Gil
+puntos totales: 0 [0]
+reconsumo: 305
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 31
+-: Antonia Maria Reyes Gil 31
+----------------------------------------------------------------
+
+Elsa Evelina Rivera Palacin
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Carmen Rosa Bueno Medina
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Marciano Juan  Cuba Ochoa
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Elita Pinedo Galoc
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Wilmington Silvio Mamani Tejada
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 16
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Angely Dominguez
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Leydi Elizabeth Vera Mendoza
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 15
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 19
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Juana Elena  Pariona Rojas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Rosa verónica  Villon Villar
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Fausto Parhuana Guillen 
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Segundo Sixto Huauya Muñoz
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+WILLAM RUIZ ALTAMIRANO
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 30
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Mayeli Yulisa Cruz Luis
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Andrés  Villanueva rondan 
+puntos totales: 0 [0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Rosa del Carmen Luzon Rivera
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Margarita Marilu Liñan Salvatierra
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Yesica Karina  Gastelu Quijano
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Freddy Richard Mamani Mamani
+puntos totales: 410 [410]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Kiara Nathaly Guadalupe  Amado Rosales 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Marina Flor Vargas Vera
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Azucena lucia Espinoza luyken
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+JOHANNA MARIANA DIAZ LEIVA
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Dalila García Arana
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jose Antonio  Chávez Gil 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Elsa  Ávila Arenas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+César Wilman Salazar Gamboa 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Emma Palomino Fujiwara
+puntos totales: 410 [240,170]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+JESSICA MEDELLA  PHOCCO PAYE
+puntos totales: 240 [240]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Vilma Esther Bernuy Carrión
+puntos totales: 1877 [1637,120,120,0,0,0]
+reconsumo: 160
+rango: ACTIVO
+líneas activas: 0
+bono residual: 79.74
+-: 0 Ermencia Ulloa Pizan 120 0.0385 12.01
+-: 0 Anali Esther  Luis Bernuy  120 0.0385 12.01
+-: 0 Maria Trinidad Bernuy Carrión 160 0.0385 15.02
+-: 1 Francisco  Acebedo águilas  187 0.0385 15.02
+-: 1 Antonieta Elizabeth  Lopez pizan  160 0.0385 15.02
+-: 2 Marina Emiliana Zaavedra Miranda 80 0.0513 10.67
+
+bono excedente: 3
+-: Vilma Esther Bernuy Carrión 2
+-: Maria Trinidad Bernuy Carrión 1
+----------------------------------------------------------------
+
+Herson  torres vargas
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Vanessa Katherine Abanto de la Cruz
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Aide Cueto Ramos
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Erminio Lucano Casas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Ermencia Ulloa Pizan
+puntos totales: 0 []
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Temisto  Guerrero Cuello
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Lucia Chavez choque 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Mauro Cesar Cuyubamba Salazar
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Josue Miquias Claudio Rivera
+puntos totales: 0 [0,0,0,0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Norberto Antonio  Chuquimango Enriquez
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Hugo Hernández Cabrera
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maribel vegeta evaristo
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Mario Luis  crespo palomino
+puntos totales: 335 [270,65,0,0,0,0,0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jesús Vilma  Briseño Lopes
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 6
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Segundo  Alvarez Ríos 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Erminda Nataly Oyola Sanchez
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Elvis Dany  Villanueva 
+puntos totales: 0 [0,0,0,0,0,0,0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Liborio Santiago Arqque Sisaya
+puntos totales: 0 [0]
+reconsumo: 240
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 18
+-: Liborio Santiago Arqque Sisaya 18
+----------------------------------------------------------------
+
+Jose Montalvo Estela
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Bertha  Chavez Dextre
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maribel Anayhuachaca castro
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Norma elix guerrero Ramirez
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Liz Betzabeth Lozano Durand
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Marino Ananias Esteban Chavez
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Juan Wicman Huaycama Murayari
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Angelica  Arteaga Escobedo
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Roxana Maribel Mamani Mamani
+puntos totales: 170 [170,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 23
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+German Trujillo Villodas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Toribio Ortiz Tevez
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Eulogia Rivera Encarnacio
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jorge  Sandoval Dávila
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Ruben Alfredo Landeo Quispe
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Graciela Mary Luz Salas Neyra
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Doris delfina Gutiérrez Ramírez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jhen Jezmin Ponce Espinoza
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Simóna santos Valderma Villanueva 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Roger Pator lopez
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Neri Leon Namoc
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Doris Midori Tolentino Solorzano
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Brando brany Brener de la cruz
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Yovanna Yanaly Oyola Sanchez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Santos Francisco  Mercedes Ramirez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 5
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 3
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jesús gregorio  Mendoza paucar 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 2
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+David Felipe Aguierre  Calderón 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Josefina  Sánchez Pérez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Lucy  Poma Porras
+puntos totales: 0 []
+reconsumo: 170
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 4
+-: Lucy  Poma Porras 4
+----------------------------------------------------------------
+
+Bertha Huayamba Dahua
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Angel  Risco chup
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Marixs Rodríguez cruz 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Teofila  Arce Llactas
+puntos totales: 340 [340,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maribel Rosmery  Tanta Enriques
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Luis Aroncio  Rojas Ramirez
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Manuel Orejón Garcia
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Agustina  Canteño Morena 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Pablo Samuel  Díaz Simón 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Lupita jessenia Altamirano Asuncion
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Lourdes Magaly  Gutiérrez Marquina 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Alicia Elizabeth  Cruz Bernui
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Norma  Villanueva Gómez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Magdiel Arely Caytano portillo
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Fredy Hugo Rojas Agustin
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Griselda  Sanchez Huayascachi
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Paulina  Chanco portilla
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maria carolina Huaranca VEntocilla
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Noelia Pariona Martínez
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Justina Curi saldaña
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Isaias  Misma Chumbille
+puntos totales: 160 [160]
+reconsumo: 180
+rango: ACTIVO
+líneas activas: 0
+bono residual: 4.00
+-: 0 Miriam de los Angeles Mitma Ramirez 40 0.0385 4.00
+
+bono excedente: 6
+-: Isaias  Misma Chumbille 6
+----------------------------------------------------------------
+
+Yessica Marisol Castillo
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Natalla Asuncion acevedo
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 21
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Aida Quintana Granizo
+puntos totales: 120 [120]
+reconsumo: 150
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Blanca jessica DaGa  marcelo
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+PRUEBA 36
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+BRYAN ALEXANDER ARIAS MAMANI
+puntos totales: 1745 [1625,120,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Alejandra  Ccollque sencia
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Manuel  Tello Arujo
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Silvia Huaringa histroza
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Gladys Sonia  Ríos Guzman 
+puntos totales: 120 [120,0,0,0,0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+bono residual: 31.03
+-: 0 Isaias  Misma Chumbille 180 0.0385 15.02
+-: 1 Miriam de los Angeles Mitma Ramirez 40 0.0385 4.00
+-: 0 Cielo Denyss Delgadillo Rios  120 0.0385 12.01
+----------------------------------------------------------------
+
+Maximo Bardales
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Katherine Zany Calero gamarra
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Gregoria  Escobar enrriquez 
+puntos totales: 665 [160,145,120,120,120,0,0,0]
+reconsumo: 157
+rango: ACTIVO
+líneas activas: 0
+bono residual: 65.57
+-: 0 Eunise Condor 145 0.0385 14.51
+-: 0 Lucero  Capcha Pacheco  160 0.0385 15.02
+-: 1 Rufino Huaroc poma 120 0.0385 12.01
+-: 1 Rocio ines  Centeno maximiliano  120 0.0385 12.01
+-: 0 Anita Escobar Quichca 120 0.0385 12.01
+
+bono excedente: 2.4000000000000004
+-: Gregoria  Escobar enrriquez  1.4000000000000001
+-: Lucero  Capcha Pacheco  1
+----------------------------------------------------------------
+
+Lourdes Amelida Días Gamarra 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Mari edi Bravo cuyubanba
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Anali Esther  Luis Bernuy 
+puntos totales: 0 [0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Brigida Fritz Manihuare 
+puntos totales: 2409 [1225,1184,0,0,0,0,0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+bono residual: 182.45
+-: 0 Dan Fritz Manihuari 80 0.0385 8.01
+-: 1 Kelita Doza Rivera 160 0.0385 15.02
+-: 1 Yohis Milian Guerrero 189 0.0385 15.02
+-: 0 Yehosua Kewin  Gamarra Fritz  140 0.0385 14.01
+-: 1 Maruja  Huayllas Huayllas  120 0.0385 12.01
+-: 2 Gregorio  Huayllas Huayllas  120 0.0513 16.01
+-: 1 Tereza Días Vargas  80 0.0385 8.01
+-: 3 Luz María  Candia Samora 155 0.0513 20.01
+-: 2 Zelida Julca Palomino 170 0.0513 20.01
+-: 1 Xiomi  Pezo Pezo  160 0.0385 15.02
+-: 2 Fernando Raúl  Hilario Aspircueta 170 0.0513 20.01
+-: 2 Ana  Carrasco cabanillas 145 0.0513 19.34
+----------------------------------------------------------------
+
+Dan Fritz Manihuari
+puntos totales: 1104 [595,429,80,0,0]
+reconsumo: 80
+rango: ACTIVO
+líneas activas: 0
+bono residual: 25.02
+-: 0 Kelita Doza Rivera 160 0.0385 5.00
+-: 0 Yohis Milian Guerrero 189 0.0385 5.00
+-: 0 Tereza Días Vargas  80 0.0385 5.00
+-: 1 Zelida Julca Palomino 170 0.0385 5.00
+-: 1 Ana  Carrasco cabanillas 145 0.0385 5.00
+----------------------------------------------------------------
+
+Miriam de los Angeles Mitma Ramirez
+puntos totales: 120 [120]
+reconsumo: 40
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Zulma Deysi  Altamirano Arteaga 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Monica Leonor  Cueto vivanco 
+puntos totales: 1020 [900,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+reconsumo: 160
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 2
+-: Monica Leonor  Cueto vivanco  2
+----------------------------------------------------------------
+
+Juan Benito Polo monzon
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Victoria  Gracia alcedo
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Norma ToRRes tuanama
+puntos totales: 0 [0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Kelita Doza Rivera
+puntos totales: 435 [265,170,0,0,0]
+reconsumo: 160
+rango: ACTIVO
+líneas activas: 0
+bono residual: 29.53
+-: 0 Zelida Julca Palomino 170 0.0385 15.02
+-: 0 Ana  Carrasco cabanillas 145 0.0385 14.51
+
+bono excedente: 2
+-: Kelita Doza Rivera 2
+----------------------------------------------------------------
+
+Laura Fritz Manihuari
+puntos totales: 0 [0,0,0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Gissela aliza Aquituari chilicahua
+puntos totales: 0 [0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Lisbith Doza rivera
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Juana Luz  Manihuari Salazar 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Rosario Balvin  Rojas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Alex manuel Ramírez Albornoz
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Nazalith  Mozombite Ruiz 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Marianeth Zapana Marin
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Denis Nestor  Davila Pahuacho 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Betty Lorenzo rivera 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Yohis Milian Guerrero
+puntos totales: 240 [120,120]
+reconsumo: 189
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 7.800000000000001
+-: Yohis Milian Guerrero 7.800000000000001
+----------------------------------------------------------------
+
+Zoraida Soledad  Cruz Mendez 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Ana Soledad  Velarde Gutiérrez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+DICK HANS DOZA RIVERA 
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Denisse  Dedios Ayala
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Mercedes  Cordero Barzola
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maria Trinidad Bernuy Carrión
+puntos totales: 1477 [850,387,240,0,0]
+reconsumo: 160
+rango: ACTIVO
+líneas activas: 0
+bono residual: 38.04
+-: 0 Francisco  Acebedo águilas  187 0.0385 15.02
+-: 0 Antonieta Elizabeth  Lopez pizan  160 0.0385 15.02
+-: 1 Marina Emiliana Zaavedra Miranda 80 0.0385 8.01
+
+bono excedente: 6.7
+-: Maria Trinidad Bernuy Carrión 2
+-: Francisco  Acebedo águilas  3.7
+-: Antonieta Elizabeth  Lopez pizan  1
+----------------------------------------------------------------
+
+Yehosua Kewin  Gamarra Fritz 
+puntos totales: 1085 [635,450,0,0,0,0]
+reconsumo: 140
+rango: ACTIVO
+líneas activas: 0
+bono residual: 74.06
+-: 0 Maruja  Huayllas Huayllas  120 0.0385 12.01
+-: 1 Gregorio  Huayllas Huayllas  120 0.0385 12.01
+-: 2 Luz María  Candia Samora 155 0.0513 20.01
+-: 0 Xiomi  Pezo Pezo  160 0.0385 15.02
+-: 1 Fernando Raúl  Hilario Aspircueta 170 0.0385 15.02
+
+bono excedente: 1
+-: Xiomi  Pezo Pezo  1
+----------------------------------------------------------------
+
+Verónica  Calderón Garrido 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Nicanor  Cisneros Hinostroza
+puntos totales: 0 [0,0]
+reconsumo: 40
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Fernando  Callando Moncada 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Dan Warren Fritz Doza
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Percy Abraham  Villanueva Vega
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Ariel Belen Villanueva Fritz
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+William  Zulueta gonzales
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Katty  Zulueta doza
+puntos totales: 170 [170,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Michael  Sánchez Mendoza 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maria ysabel Arce najar
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Wendy  Balbín Tejada
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Frida pricilia Trigoso vasguez
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Victor Andres  Huaraca Ramos 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Pilar Doza Rivera
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+CLIFF EBER CHAVEZ ISUIZA
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Frank Harold Changanaqui del aguila
+puntos totales: 1625 [1225,400,0,0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+María Dolores  Sirlapu Suyon 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Santos Humberto Ramírez Cayao
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Olga  Bances Mio
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Dina Gonzales Barrera
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Esther Elsa Pareja Huaraca
+puntos totales: 1105 [665,200,120,120,0,0,0,0,0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+bono residual: 34.03
+-: 0 Loida Abigail Ramos solano 215 0.0385 15.02
+-: 0 Naysha Adriana  Torres Pareja 40 0.0385 4.00
+-: 1 Betsabe Garcia Lazo 160 0.0385 15.02
+
+bono excedente: 6.5
+-: Loida Abigail Ramos solano 6.5
+----------------------------------------------------------------
+
+Sonia Irma  Evangelista Duran
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Josue Terrones Rojas
+puntos totales: 0 [0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jose Aguibel  Jiménez Guerrero 
+puntos totales: 400 [160,160,80,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Devora Fritz Manihuari
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Yaex loyoly Maldonado Bermeo 
+puntos totales: 160 [160,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Rode  Moreno Greyfus 
+puntos totales: 0 [0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Fiorella Madai  Amasifuen Fumachi
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jose Carlos  Gómez Laulate
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Carmen Sonia  León Rodríguez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jhoany  Alva Herrera 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Juan floro Bictorio colqui
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Alinoit  Armijos Riveros 
+puntos totales: 80 [80,0,0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Berlinda González Paquirachi 
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Mercy López picon
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Osmary Salazar León 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Juan Carlos Marroquin Martinez
+puntos totales: 0 [0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Ariadna Lorena  Anampa Saboya 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Olguita  Guerrero peña
+puntos totales: 0 [0,0,0,0,0,0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Loida Abigail Ramos solano
+puntos totales: 450 [450,0]
+reconsumo: 215
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 13
+-: Loida Abigail Ramos solano 13
+----------------------------------------------------------------
+
+Kelly Hillary Cossio Valle
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+SIEGFRIED LUIS  BARCO NAVARRO
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Mabel Pérez Ramírez 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Katherine Rodríguez leon
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maruja  Huayllas Huayllas 
+puntos totales: 515 [395,120,0,0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+bono residual: 27.03
+-: 0 Gregorio  Huayllas Huayllas  120 0.0385 12.01
+-: 1 Luz María  Candia Samora 155 0.0385 15.02
+----------------------------------------------------------------
+
+Vanessa  Alverca Mondragón 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Renzo Abregú Olivares
+puntos totales: 0 []
+reconsumo: 155
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 1
+-: Renzo Abregú Olivares 1
+----------------------------------------------------------------
+
+Gregorio  Huayllas Huayllas 
+puntos totales: 275 [275,0,0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+bono residual: 15.02
+-: 0 Luz María  Candia Samora 155 0.0385 15.02
+----------------------------------------------------------------
+
+Delia  Arce chavez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jazmín Mileth Vilca arteaga 
+puntos totales: 40 [40,0,0]
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+bono residual: 4.00
+-: 0 Digna Enma Gervacio oruna 40 0.0385 4.00
+----------------------------------------------------------------
+
+Elisa Carrión santos
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maricarmen Alva Zevallos
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Angel  De la cruz valle
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Sheyla Milagritos  Maldonado Bermeo
+puntos totales: 0 []
+reconsumo: 160
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 2
+-: Sheyla Milagritos  Maldonado Bermeo 2
+----------------------------------------------------------------
+
+Ligorio Huayllas 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Vanessa Huayllas Huayllas 
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jhon Erick  Noriega Fritz 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Paola Giovana  Monroy Medina
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Sindy Freitas Manihuari
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+José leonides Torres Saboya
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Carmen Débora  Ochoa  Lopez
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Bernavita Abila  Salazar Rojas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Walter Pérez Quinchori
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Aracely Jimenez Guerrero
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jessica Aranda Belis
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Tereza Días Vargas 
+puntos totales: 0 []
+reconsumo: 80
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Daniel josué  Burga Hinostroza 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Talia Mercedes Rivera Crisostomo
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Nelly  Pastrana Mercado 
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Idelsa  Peres Lozada
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Celso Hurtado vargas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Aide Guadalupe Ortiz Inocente
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Diego Kenllo Danoz Sobrado
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Naysha Adriana  Torres Pareja
+puntos totales: 160 [160,0,0,0]
+reconsumo: 40
+rango: ACTIVO
+líneas activas: 0
+bono residual: 5.00
+-: 0 Betsabe Garcia Lazo 160 0.0385 5.00
+----------------------------------------------------------------
+
+Ady Liceth Rufasto Maldonado
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Cooper Milagros Mejia Saldaña
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Emerita Solano Micha
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Ines Rosario  Laura  Ayala
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Katia  Macedo de la Cruz 
+puntos totales: 0 [0,0,0,0,0]
+reconsumo: 80
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Carlos Gonzales paquirachi
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Rosa Aurora  Vasquez Montejo
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Yeimis Sharol Artiaga Huatangare
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Leonela  Morales Macedo 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Juana Zoila  Marroquin Fernández 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Veronica Fiorella Paucar Cruz
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Timotea  Pareja Ayala
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Margarita Mariluz Martinez Palomino de Marroquin 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Karina Espiritu Gonzales
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Ermelinda  Micha Rojas 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Yelitza Pinedo Chocaca
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Madeleyne  Benavides sajami 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Danixa  Chávez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Katia  Macedo de la Cruz 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+JOSE JIMENEZ GUERRERO
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Rodrigo Huamani vargas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Heber Zarate Hancco 
+puntos totales: 275 [275,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jesus Munoz
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Angela Herrera ocaña
+puntos totales: 0 [0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Nohi isabel  Albornoz Tarazona
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Katia  Macedo de la Cruz 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+P A
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+a e
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+p a
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+a i
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+a s
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+is s
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Anderson Augusto Melendez Tafur
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jhordin Erineo De la cruz cabrera 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Diego Genovez Aranda 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+DANTON  ATENCIA LUSTRE 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Rigoberto Boca Rios
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Luz María  Candia Samora
+puntos totales: 120 [120,0,0,0]
+reconsumo: 155
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 1
+-: Luz María  Candia Samora 1
+----------------------------------------------------------------
+
+BEATRIZ JULIANA RENGIFO DELERNA
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Betsabe Garcia Lazo
+puntos totales: 0 [0,0]
+reconsumo: 160
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 2
+-: Betsabe Garcia Lazo 2
+----------------------------------------------------------------
+
+Liseth Mayta Castro
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Marivel Cueto vivanco
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Elí  Pereyra Mejia 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Gisela del Pilar  Gonzales Celestino
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Elizabeth  Macedo de la cruz 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Mirian santos Briseño Ramos
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Mónica  Malpartida Ruiz 
+puntos totales: 0 [0,0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Melissa Jhasmyn  Goñas Leyva 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Prueb 21 01
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Yanelly Belinda  Quispe  Farfan 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jose Zarate Quispe 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Emilia  Hancco  Mendoza 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Doris Carmela  Acuña Rodríguez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Franklin Alvarez flores
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Digna Enma Gervacio oruna
+puntos totales: 0 []
+reconsumo: 40
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Maritz Hilario
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Victor Manuel  Vallejos Vázquez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Eunise Condor
+puntos totales: 0 []
+reconsumo: 145
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Jonathan Ken Chavez Huamanchumo
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+MARITZA   TORES ESPINOZA
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Amalia  Aguilar Muñoz
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Lorenzo  Huillca Sayco 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Ana Maria Quispe Quispe
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Gabriel Gutiérrez Godoy
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Lidia  Zarate Hancco 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Justo Wilson  Garcia Lazo
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Lucero  Capcha Pacheco 
+puntos totales: 0 []
+reconsumo: 160
+rango: ACTIVO
+líneas activas: 0
+bono residual: 24.02
+-: 0 Rufino Huaroc poma 120 0.0385 12.01
+-: 0 Rocio ines  Centeno maximiliano  120 0.0385 12.01
+
+bono excedente: 2
+-: Lucero  Capcha Pacheco  2
+----------------------------------------------------------------
+
+Lourdes  Ore Bazán 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Amner jhon Pereyra Mejía 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Viky Huamane Monares 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Yulinio Pacco rocca
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Griselda  Ttira Huamane 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Faustino  Vega mollo 
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Valvina Rocca Ramos
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Katya Huaroc trucios 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Zelida Julca Palomino
+puntos totales: 0 []
+reconsumo: 170
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 4
+-: Zelida Julca Palomino 4
+----------------------------------------------------------------
+
+Prospera Huanaco Cervantes 
+puntos totales: 0 [0,0]
+reconsumo: 160
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 2
+-: Prospera Huanaco Cervantes  2
+----------------------------------------------------------------
+
+Victoria Cayllahua  Yarasca
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Marisol Albino Civirichi
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Ledivina Carrera correa
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Francisco  Acebedo águilas 
+puntos totales: 200 [200,0]
+reconsumo: 187
+rango: ACTIVO
+líneas activas: 0
+bono residual: 8.01
+-: 0 Marina Emiliana Zaavedra Miranda 80 0.0385 8.01
+
+bono excedente: 7.4
+-: Francisco  Acebedo águilas  7.4
+----------------------------------------------------------------
+
+Ana Maria  Riveros Chumbela 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Julia Paucar Aguayo
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Joyce Kriss Morón Broncano 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Rufino Huaroc poma
+puntos totales: 0 []
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Rutt Noemi Durand Huaraca
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Alberta albina  Romero bendezu
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Emma reyna Ñahuincopa quispe
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Jhan Manuel  Tinoco Pérez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maritza Quispe Maciso
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Herlinda Delia Mendoza  Peralta
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Carlos Hurtado Cueto
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Alexander  Ignacio Plomares 
+puntos totales: 0 [0,0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Deliles Ruíz De Carrión 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Aguntin Chavez Luna
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Haydee  Huamani Fernández 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Antonieta Elizabeth  Lopez pizan 
+puntos totales: 690 [450,120,120]
+reconsumo: 160
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 2
+-: Antonieta Elizabeth  Lopez pizan  2
+----------------------------------------------------------------
+
+Elvira Norma Caro Blas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Nashely Rojas Lopez
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Celestino maximo Cahuana
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+VIVIANA ALEJANDRA LI CASTILLO
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Luz Dina  Contreras cjuiro 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Xiomi  Pezo Pezo 
+puntos totales: 290 [290,0,0,0]
+reconsumo: 160
+rango: ACTIVO
+líneas activas: 0
+bono residual: 15.02
+-: 0 Fernando Raúl  Hilario Aspircueta 170 0.0385 15.02
+
+bono excedente: 4
+-: Xiomi  Pezo Pezo  2
+-: Fernando Raúl  Hilario Aspircueta 2
+----------------------------------------------------------------
+
+Marlene Curo quispe
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Celia Pascual cardenas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Andrea  Fernández laura
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Maximina Inocenta  Uriol Soto 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Nila Bente Ushiñahua
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Mónica marcelina Fuentes larrauri
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Cristian  Saldaña Ignacio 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Felia Ignacio Palomares 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Rocio ines  Centeno maximiliano 
+puntos totales: 0 []
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Nery yovana Pacheco ariste
+puntos totales: 0 [0]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Yesica Milagros Lázaro Porras
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Adith  Pezo Flores 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Cielo Denyss Delgadillo Rios 
+puntos totales: 0 []
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Ronal  Delgadillo meza 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Haydee  Conde Lapas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Angelica Melchor de la cruz 
+puntos totales: 0 []
+reconsumo: 65
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Morelia  Pezo Pezo 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Luisa Gladis  Solorsano polo
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Nadiesca Esquivel Sifuentes 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Gladys Irma  Lazo blancas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Filomena  Mateo pastrana 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Elizabeth Susana  Ramírez Vásquez 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Leandro Mateo Limaylla Pacheco 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Anita Escobar Quichca
+puntos totales: 0 []
+reconsumo: 120
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Yenny lisbet Tarazona zegarra
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+David  Chavez loayza 
+puntos totales: 160 [160]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Bernardina Samora Oviedo 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Fernando Raúl  Hilario Aspircueta
+puntos totales: 120 [120]
+reconsumo: 170
+rango: ACTIVO
+líneas activas: 0
+
+bono excedente: 4
+-: Fernando Raúl  Hilario Aspircueta 4
+----------------------------------------------------------------
+
+Soledad  Gómez Raimi
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Flor de Maria Reátegui Diaz
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Cesar Junior Gómez Pareja
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Basilia Claudia Huaraca Pardo
+puntos totales: 120 [120]
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+José Luis  Galarza Beserra
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Nohemi  Anchiraico Galarza 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Ricardo  Escalante De La Vega
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Lourdes Edith  Lourdes Edith Pareja
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Rosa Mercedez Rojas Bernui 
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Howard  Pari Huayllas 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Cecilio  Mendoza huaman
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Obed Daniel Meza Bautista 
+puntos totales: 0 []
+reconsumo: 40
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Verónica  Luz Matías Luca
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Veronica Escobedo Ruiz
+puntos totales: 120 [120]
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Marina Emiliana Zaavedra Miranda
+puntos totales: 0 []
+reconsumo: 80
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Roger Huancayo  cruz 
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Valentina  Balvin Cruz
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+OLGA castro cueto
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+ruben contreras fabian
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Ana  Carrasco cabanillas
+puntos totales: 0 []
+reconsumo: 145
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Tony Paul Hilario Macedo 
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Olandrina Candia Apaza 
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Edison  beimar  Ramos claros
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Herica Ayala Escobar
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Justa Santos Rodriguez Jimenez 
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Martha Maria Mallcco Huaraca
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+ANALY ROSA CANTO DE LA CRUZ 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Mauro  Quispe osorio 
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Lucia Yumanga Santos
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Fabiana Vivanco de Cueto
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Adrian David  Silva Huayllas 
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Eleuteria Prado Pillaca
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Wilmer  Valderrama Altamirano
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Dionicia  Flores Arteaga 
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+MAURO ALBERTO UZCATEGUI GONZALES
+puntos totales: 0 []
+reconsumo: 0
+rango: ACTIVO
+líneas activas: 0
+----------------------------------------------------------------
+
+Julia Santos  Luis Soto
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------
+
+Nery Egoavil Rojas
+puntos totales: 0 []
+reconsumo: 0
+rango: none
+líneas activas: 0
+----------------------------------------------------------------

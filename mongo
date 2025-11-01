@@ -1,4 +1,4 @@
-mongodump --forceTableScan --uri mongodb+srv://admin:sifrah2024@sifrah.erm27to.mongodb.net/sifrah
+
 
 mongorestore
 
