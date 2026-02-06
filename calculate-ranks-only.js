@@ -1,13 +1,13 @@
 /**
- * SCRIPT PARA CALCULAR SOLO RANGOS
+ * SCRIPT PARA CALCULAR Y ACTUALIZAR RANGOS
  * 
- * Este script solo calcula los rangos de los usuarios sin:
- * - Calcular bonificaciones residuales
- * - Calcular bonos de excedente
- * - Calcular pagos por rango
- * - Actualizar la base de datos
+ * Este script calcula los rangos de los usuarios y los actualiza en la base de datos.
+ * NO calcula:
+ * - Bonificaciones residuales
+ * - Bonos de excedente
+ * - Pagos por rango
  * 
- * Útil para pruebas y debugging del cálculo de rangos
+ * Útil para calcular y actualizar solo los rangos sin ejecutar el proceso completo
  */
 
 const db = require('./db')
@@ -58,9 +58,11 @@ function enrichTreeData() {
     // ========================================
     // PUNTOS Y RECONSUMO
     // ========================================
-    node.points = Number(user.points)     // Puntos personales del usuario
+    node.points = Number(user.points) || 0     // Puntos personales del usuario
     node.affiliation_points = user.affiliation_points ? user.affiliation_points : 0  // Puntos de afiliación
-    node.reconsumo = user.points || 0     // Reconsumo mensual (usar points como reconsumo)
+    // Reconsumo: Se toma el MAYOR valor entre puntos de productos y afiliación (SIN SUMAR)
+    // "si no tiene puntos reconsumo que cuente los puntos de afilicion, no tiene que sumar nada"
+    node.reconsumo = Math.max(Number(user.points) || 0, Number(user.affiliation_points) || 0)
   })
   
   console.log(`✅ Datos enriquecidos para ${tree.length} nodos`)
@@ -70,7 +72,7 @@ function enrichTreeData() {
  * FUNCIÓN PRINCIPAL - Solo cálculo de rangos
  */
 async function main() {
-  console.log('🚀 Iniciando cálculo de rangos (solo cálculo, sin bonificaciones ni DB)...\n')
+  console.log('🚀 Iniciando cálculo y actualización de rangos...\n')
 
   // ========================================
   // PASO 1: OBTENER DATOS DE LA BASE DE DATOS
@@ -110,19 +112,19 @@ async function main() {
       
       // Procesar cada usuario directo
       for (let directUser of directUsers) {
-        // Solo considerar usuarios activos (activated=true)
-        const isActiveUser = directUser.activated
+        // Se considera línea activa si total_points es diferente de cero
+        const userTotalPoints = directUser.total_points || 0
+        const isActiveLine = userTotalPoints !== 0
         
-        addLog(`DEBUG PUNTOS - Usuario directo ${directUser.name}: activated=${directUser.activated}, total_points=${directUser.total_points}`)
+        addLog(`DEBUG PUNTOS - Usuario directo ${directUser.name}: total_points=${userTotalPoints}`)
         
-        if (isActiveUser) {
+        if (isActiveLine) {
           // Usar total_points de la DB (ya incluye puntos personales + afiliación)
-          const directPoints = directUser.total_points || 0
-          node.total_points += directPoints
-          node.total_arr.push(directPoints)
-          addLog(`DEBUG PUNTOS - AGREGADO: ${directUser.name} con ${directPoints} puntos`)
+          node.total_points += userTotalPoints
+          node.total_arr.push(userTotalPoints)
+          addLog(`DEBUG PUNTOS - AGREGADO: ${directUser.name} con ${userTotalPoints} puntos (línea activa)`)
         } else {
-          addLog(`DEBUG PUNTOS - NO AGREGADO (no activo): ${directUser.name}`)
+          addLog(`DEBUG PUNTOS - NO AGREGADO: ${directUser.name} (total_points=${userTotalPoints} === 0)`)
         }
       }
     } else {
@@ -153,8 +155,8 @@ async function main() {
   // ========================================
   // PASO 6: MOSTRAR RESULTADOS
   // ========================================
-  console.log('📊 RESULTADOS DEL CÁLCULO DE RANGOS:\n')
-  console.log('='.repeat(80))
+  addLog('📊 RESULTADOS DEL CÁLCULO DE RANGOS:\n')
+  addLog('='.repeat(80))
   
   const usersByRank = {}
   for (let node of tree) {
@@ -166,7 +168,9 @@ async function main() {
         name: node.name,
         total_points: node.total_points,
         reconsumo: node.reconsumo,
-        total_arr: node.total_arr
+        total_arr: node.total_arr,
+        points: node.points,
+        affiliation_points: node.affiliation_points
       })
     }
   }
@@ -177,28 +181,90 @@ async function main() {
   
   for (const rank of rankOrder) {
     if (usersByRank[rank]) {
-      console.log(`\n🏆 ${rank}: ${usersByRank[rank].length} usuario(s)`)
-      console.log('-'.repeat(80))
+      addLog(`\n🏆 ${rank}: ${usersByRank[rank].length} usuario(s)`)
+      addLog('-'.repeat(80))
       for (const user of usersByRank[rank]) {
-        console.log(`  ${user.name}`)
-        console.log(`    Puntos totales: ${user.total_points}`)
-        console.log(`    Reconsumo: ${user.reconsumo}`)
-        console.log(`    Array puntos: [${user.total_arr.join(', ')}]`)
-        console.log('')
+        addLog(`  ${user.name}`)
+        addLog(`    Puntos totales: ${user.total_points}`)
+        addLog(`    Reconsumo: ${user.reconsumo} (Productos: ${user.points}, Afiliación: ${user.affiliation_points})`)
+        addLog(`    Array puntos (Grupales): [${user.total_arr.join(', ')}]`)
+        addLog('')
       }
     }
   }
 
-  console.log('='.repeat(80))
+  addLog('='.repeat(80))
   
   // Resumen
   const totalWithRanks = Object.values(usersByRank).reduce((sum, users) => sum + users.length, 0)
   const totalNone = tree.filter(n => !n.rank || n.rank === 'none').length
   
-  console.log(`\n📈 RESUMEN:`)
-  console.log(`   Total usuarios con rango: ${totalWithRanks}`)
-  console.log(`   Total usuarios sin rango (none): ${totalNone}`)
-  console.log(`   Total usuarios: ${tree.length}`)
+  addLog(`\n📈 RESUMEN:`)
+  addLog(`   Total usuarios con rango: ${totalWithRanks}`)
+  addLog(`   Total usuarios sin rango (none): ${totalNone}`)
+  addLog(`   Total usuarios: ${tree.length}`)
+
+  // Lista compacta para fácil lectura
+  addLog('\n📋 LISTA COMPACTA DE RANGOS CERRADOS:')
+  const allRankedUsers = []
+  for (const rank of rankOrder) {
+    if (usersByRank[rank]) {
+      for (const user of usersByRank[rank]) {
+        allRankedUsers.push(`${user.name} - ${rank} (Prod: ${user.points}, Afil: ${user.affiliation_points}, Grup: ${user.total_points})`)
+      }
+    }
+  }
+  allRankedUsers.forEach(u => addLog(u))
+
+
+  // ========================================
+  // PASO 7: ACTUALIZAR RANGOS EN LA BASE DE DATOS
+  // ========================================
+  console.log('\n💾 Actualizando rangos en la base de datos...')
+  
+  // OPTIMIZACIÓN: Agrupar actualizaciones en operaciones bulk
+  const updates = []
+  let updatedCount = 0
+  let noneCount = 0
+
+  for (let node of tree) {
+    if (node.rank && node.rank !== 'none') {
+      updates.push({
+        updateOne: {
+          filter: { id: node.id },
+          update: {
+            $set: {
+              rank: node.rank
+            }
+          }
+        }
+      })
+      updatedCount++
+    } else {
+      // Actualizar usuarios sin rango a 'none'
+      updates.push({
+        updateOne: {
+          filter: { id: node.id },
+          update: {
+            $set: {
+              rank: 'none'
+            }
+          }
+        }
+      })
+      noneCount++
+    }
+  }
+
+  // Ejecutar todas las actualizaciones en un solo batch
+  if (updates.length > 0) {
+    await User.bulkWrite(updates)
+    console.log(`✅ Actualizados ${updatedCount} usuarios con rango en la base de datos`)
+    console.log(`✅ Actualizados ${noneCount} usuarios sin rango (none) en la base de datos`)
+    console.log(`✅ Total: ${updates.length} usuarios actualizados`)
+  } else {
+    console.log('⚠️ No hay usuarios para actualizar')
+  }
 
   // ========================================
   // GUARDAR LOGS EN ARCHIVO
@@ -208,7 +274,7 @@ async function main() {
   fs.writeFileSync(filename, logs.join('\n'))
   console.log(`\n📝 Logs guardados en: ${filename}`)
 
-  console.log('\n✅ Cálculo de rangos completado (sin actualizar DB)')
+  console.log('\n✅ Cálculo y actualización de rangos completado')
 }
 
 // Ejecutar

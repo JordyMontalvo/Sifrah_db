@@ -66,19 +66,19 @@ async function main() {
       
       // Procesar cada usuario directo
       for (let directUser of directUsers) {
-        // Solo considerar usuarios activos (activated=true)
-        const isActiveUser = directUser.activated
+        // Se considera línea activa si total_points es diferente de cero
+        const userTotalPoints = directUser.total_points || 0
+        const isActiveLine = userTotalPoints !== 0
         
-        addLog(`DEBUG PUNTOS - Usuario directo ${directUser.name}: activated=${directUser.activated}, total_points=${directUser.total_points}`)
+        addLog(`DEBUG PUNTOS - Usuario directo ${directUser.name}: total_points=${userTotalPoints}`)
         
-        if (isActiveUser) {
+        if (isActiveLine) {
           // Usar total_points de la DB (ya incluye puntos personales + afiliación)
-          const directPoints = directUser.total_points || 0
-          node.total_points += directPoints
-          node.total_arr.push(directPoints)
-          addLog(`DEBUG PUNTOS - AGREGADO: ${directUser.name} con ${directPoints} puntos`)
+          node.total_points += userTotalPoints
+          node.total_arr.push(userTotalPoints)
+          addLog(`DEBUG PUNTOS - AGREGADO: ${directUser.name} con ${userTotalPoints} puntos (línea activa)`)
         } else {
-          addLog(`DEBUG PUNTOS - NO AGREGADO (no activo): ${directUser.name}`)
+          addLog(`DEBUG PUNTOS - NO AGREGADO: ${directUser.name} (total_points=${userTotalPoints} === 0)`)
         }
       }
     } else {
@@ -592,7 +592,7 @@ const checkReconsumo = (node, reconsumo_required) => {
 }
 
 /**
- * Obtiene los datos de las líneas activas (usuarios directos activos con ≥120 puntos)
+ * Obtiene los datos de las líneas activas (usuarios directos con total_points !== 0)
  * @param {Tree} node Nodo del usuario
  * @returns {Array} Array de objetos con datos de líneas activas
  */
@@ -605,14 +605,15 @@ const getActiveLinesData = (node) => {
     const directUsers = users.filter(u => node.childs.includes(u.id))
     
     for (let directUser of directUsers) {
-      // Solo considerar usuarios activos (activated=true)
-      const isActiveUser = directUser.activated
+      // Se considera línea activa si total_points es diferente de cero
+      const userTotalPoints = directUser.total_points || 0
+      const isActiveLine = userTotalPoints !== 0
       
-      if (isActiveUser) {
+      if (isActiveLine) {
         activeLinesData.push({
           userId: directUser.id,
           name: directUser.name,
-          points: directUser.total_points || 0
+          points: userTotalPoints
         })
       }
     }
@@ -622,7 +623,8 @@ const getActiveLinesData = (node) => {
 }
 
 /**
- * Verifica si las líneas directas están activas (cumplen reconsumo)
+ * Verifica si las líneas directas están activas
+ * Una línea se considera activa si el total_points del usuario frontal es diferente de cero
  * @param {Tree} node Nodo del usuario
  * @returns {number} Número de líneas activas
  */
@@ -638,16 +640,17 @@ const getActiveLines = (node) => {
     addLog(`DEBUG - Encontrados ${directUsers.length} usuarios directos`)
     
     for (let directUser of directUsers) {
-      // Solo considerar usuarios activos (activated=true)
-      const isActiveUser = directUser.activated
+      // Se considera línea activa si total_points es diferente de cero
+      const userTotalPoints = directUser.total_points || 0
+      const isActiveLine = userTotalPoints !== 0
       
-      addLog(`DEBUG - Usuario directo ${directUser.name}: activated=${directUser.activated}`)
+      addLog(`DEBUG - Usuario directo ${directUser.name}: total_points=${userTotalPoints}`)
       
-      if (isActiveUser) {
+      if (isActiveLine) {
         activeLines++
-        addLog(`DEBUG - LÍNEA ACTIVA: ${directUser.name} (usuario activo)`)
+        addLog(`DEBUG - LÍNEA ACTIVA: ${directUser.name} (total_points=${userTotalPoints} !== 0)`)
       } else {
-        addLog(`DEBUG - Usuario NO activo: ${directUser.name}`)
+        addLog(`DEBUG - LÍNEA NO ACTIVA: ${directUser.name} (total_points=${userTotalPoints} === 0)`)
       }
     }
   } else {
@@ -746,9 +749,9 @@ const calc_rank = (node) => {
       addLog(`✅ Cumple líneas activas: ${activeLines} >= ${rankLimitSimple.minimum_frontals}`)
 
       // ========================================
-      // PASO 3: CALCULAR PML-R (solo informativo, no se usa para validar)
+      // PASO 3: CALCULAR PML Y PML-R (SIN TRUNCAR)
       // ========================================
-      addLog(`\n3️⃣ Calculando PML-R (solo informativo)...`)
+      addLog(`\n3️⃣ Calculando PML y PML-R...`)
       
       // Obtener solo las líneas activas (usuarios directos activos)
       const activeLinesData = getActiveLinesData(node)
@@ -756,18 +759,28 @@ const calc_rank = (node) => {
       
       addLog(`📊 Líneas activas encontradas: ${JSON.stringify(activeLinesArr)}`)
       addLog(`📋 Límites para ${rankLimitSimple.rank}:`)
-      addLog(`   - PML (línea mayor): sin límite`)
-      addLog(`   - PML-R (líneas restantes + reconsumo, limitado): ${rankLimitSimple.maximum_others_leg}`)
+      addLog(`   - PML (brazo mayor): debe llegar a ${rankLimitSimple.maximum_large_leg}`)
+      addLog(`   - PML-R (líneas menores + reconsumo): debe llegar a ${rankLimitSimple.maximum_others_leg}`)
       
-      let pml = 0
-      let pmlr = 0
+      let pml = 0  // PML sin truncar (para validación)
+      let pmlr = 0  // PML-R sin truncar (para validación)
+      let pmlTruncado = 0  // PML truncado al máximo del rango
+      let pmlrTruncado = 0  // PML-R truncado al máximo del rango
       
       if (activeLinesArr.length > 0) {
         // ========================================
-        // A) PML: Brazo con el puntaje más grande (para validación y cálculo)
+        // A) PML: Brazo con el puntaje más grande (sin truncar)
         // ========================================
         const brazoMayor = activeLinesArr[0]  // La línea mayor (ya está ordenada)
-        addLog(`\n📊 Brazo mayor (sin limitar): ${brazoMayor} puntos`)
+        pml = brazoMayor
+        
+        // Truncar PML al máximo permitido del rango (solo si excede el límite)
+        // Si tiene menos que el máximo, se usa el valor real (ej: 200 < 360, usa 200)
+        // Si excede el máximo, se trunca al límite (ej: 400 > 360, usa 360)
+        pmlTruncado = Math.min(pml, rankLimitSimple.maximum_large_leg)
+        
+        addLog(`\n📊 PML (Brazo mayor): ${brazoMayor} puntos`)
+        addLog(`📊 PML truncado al límite del rango: ${pmlTruncado} puntos (máximo: ${rankLimitSimple.maximum_large_leg})`)
         
         // ========================================
         // B) SUMAR RECONSUMO DEL USUARIO AL BRAZO MÁS PEQUEÑO
@@ -782,89 +795,104 @@ const calc_rank = (node) => {
         addLog(`   Nueva línea más pequeña: ${smallestLinePoints} + ${reconsumoUsuario} = ${nuevaLineaMasPequena}`)
         
         // ========================================
-        // C) PML-R: Suma de todas las líneas con menos puntaje + reconsumo (para validación)
+        // C) PML-R: Truncar cada pierna menor individualmente y luego sumar
         // ========================================
-        let sumaLineasMenores = 0
+        // IMPORTANTE: Cada pierna menor se trunca individualmente al máximo permitido
+        // Luego se suman todas las piernas truncadas
+        let sumaLineasMenores = 0  // Para validación (sin truncar)
+        let sumaLineasMenoresTruncadas = 0  // Para cálculo de puntos totales (truncadas)
         
-        // Sumar todas las líneas excepto la mayor (índice 0)
+        // Procesar todas las líneas excepto la mayor (índice 0)
         for (let i = 1; i < activeLinesArr.length; i++) {
+          let valorLinea = activeLinesArr[i]
+          
+          // Si es la línea más pequeña, agregar el reconsumo
           if (i === smallestLineIndex) {
-            // Esta es la línea más pequeña, usar la nueva con reconsumo
-            sumaLineasMenores += nuevaLineaMasPequena
-          } else {
-            // Otras líneas menores (no la mayor)
-            sumaLineasMenores += activeLinesArr[i]
+            valorLinea = nuevaLineaMasPequena
           }
+          
+          // Sumar sin truncar para validación
+          sumaLineasMenores += valorLinea
+          
+          // Truncar cada pierna individualmente al máximo permitido
+          const piernaTruncada = Math.min(valorLinea, rankLimitSimple.maximum_others_leg)
+          sumaLineasMenoresTruncadas += piernaTruncada
+          
+          addLog(`   Pierna ${i}: ${valorLinea} puntos → truncada a ${piernaTruncada} puntos (máximo: ${rankLimitSimple.maximum_others_leg})`)
         }
         
-        addLog(`📊 Suma de líneas menores + reconsumo (sin limitar): ${sumaLineasMenores} puntos`)
+        pmlr = sumaLineasMenores  // Sin truncar (para validación)
+        pmlrTruncado = sumaLineasMenoresTruncadas  // Suma de piernas truncadas (para cálculo de puntos totales)
         
-        // Para validación usar valores sin limitar
-        pml = brazoMayor
-        pmlr = sumaLineasMenores
-        
-        // Para cálculo usar valores limitados (si es necesario más adelante)
-        addLog(`📋 Valores para validación:`)
-        addLog(`   - PML (brazo mayor): ${pml} puntos`)
-        addLog(`   - PML-R (líneas menores + reconsumo): ${pmlr} puntos`)
+        addLog(`📊 Suma de líneas menores + reconsumo (sin truncar): ${sumaLineasMenores} puntos`)
+        addLog(`📊 PML-R (suma de piernas truncadas): ${pmlrTruncado} puntos`)
         
       } else {
         addLog(`⚠️ No hay líneas activas`)
       }
       
       // ========================================
-      // PASO 4: VALIDAR PML Y PML-R POR SEPARADO
+      // PASO 4: VALIDAR PML Y PML-R (solo se trunca si excede, no hay mínimo requerido)
       // ========================================
-      addLog(`\n4️⃣ Validando requisitos PML y PML-R para el rango...`)
+      // IMPORTANTE: maximum_large_leg y maximum_others_leg son MÁXIMOS permitidos:
+      // - Si el valor es <= al máximo, cumple y se usa el valor real
+      // - Si el valor excede el máximo, se trunca al máximo para calcular puntos totales
+      addLog(`\n4️⃣ Validando PML y PML-R para el rango...`)
+      addLog(`📊 Límites para ${rankLimitSimple.rank}:`)
+      addLog(`   - PML máximo permitido: ${rankLimitSimple.maximum_large_leg}`)
+      addLog(`   - PML-R máximo permitido por pierna: ${rankLimitSimple.maximum_others_leg}`)
+      addLog(`   - Si exceden estos límites, se truncan para calcular puntos totales`)
       
-      addLog(`📋 Resumen del cálculo PML/PML-R:`)
-      addLog(`   - PML (brazo mayor, limitado): ${pml} puntos`)
-      addLog(`   - PML-R (líneas menores + reconsumo, limitado): ${pmlr} puntos`)
-      addLog(`📊 Requisitos para ${rankLimitSimple.rank}:`)
-      addLog(`   - PML debe ser >= ${rankLimitSimple.maximum_large_leg}`)
-      addLog(`   - PML-R debe ser >= ${rankLimitSimple.maximum_others_leg}`)
-      
-      // Validar PML (brazo mayor debe llegar al máximo requerido)
-      if (pml < rankLimitSimple.maximum_large_leg) {
-        addLog(`❌ No cumple requisito PML: ${pml} < ${rankLimitSimple.maximum_large_leg}`)
-        addLog(`💡 El brazo mayor necesita llegar a ${rankLimitSimple.maximum_large_leg} puntos, pero solo tiene ${pml}`)
-        return null
+      // PML: cualquier valor cumple, solo se trunca si excede el máximo
+      // Ejemplo para PLATA (máximo 675):
+      // - Si tiene 672: 672 <= 675 → cumple ✅, se usa 672 para puntos
+      // - Si tiene 675: 675 <= 675 → cumple ✅, se usa 675 para puntos
+      // - Si tiene 800: 800 > 675 → cumple ✅, se trunca a 675 para puntos
+      addLog(`✅ PML: ${pml} puntos`)
+      if (pml > rankLimitSimple.maximum_large_leg) {
+        addLog(`   → Se truncará a ${rankLimitSimple.maximum_large_leg} para calcular puntos totales (excede el máximo)`)
+      } else {
+        addLog(`   → Se usará ${pml} para calcular puntos totales (dentro del límite)`)
       }
-      addLog(`✅ Cumple requisito PML: ${pml} >= ${rankLimitSimple.maximum_large_leg}`)
       
-      // Validar PML-R (líneas menores + reconsumo deben llegar al máximo requerido)
-      if (pmlr < rankLimitSimple.maximum_others_leg) {
-        addLog(`❌ No cumple requisito PML-R: ${pmlr} < ${rankLimitSimple.maximum_others_leg}`)
-        addLog(`💡 Las líneas menores + reconsumo necesitan llegar a ${rankLimitSimple.maximum_others_leg} puntos, pero solo tienen ${pmlr}`)
-        return null
-      }
-      addLog(`✅ Cumple requisito PML-R: ${pmlr} >= ${rankLimitSimple.maximum_others_leg}`)
+      // PML-R: cualquier valor cumple, cada pierna se trunca individualmente si excede
+      // Ejemplo para PLATA (máximo 500 por pierna):
+      // - Si suma 400: cumple ✅, cada pierna se trunca individualmente si excede 500
+      // - Si suma 500: cumple ✅, cada pierna se trunca individualmente si excede 500
+      // - Si suma 2000: cumple ✅, cada pierna se trunca a 500 máximo
+      addLog(`✅ PML-R suma total: ${pmlr} puntos`)
+      addLog(`   → Cada pierna se truncará individualmente a máximo ${rankLimitSimple.maximum_others_leg} si excede`)
       
       // ========================================
-      // PASO 5: VALIDAR PUNTOS TOTALES (campo total_points de la DB)
+      // PASO 5: CALCULAR PUNTOS TOTALES (PML truncado + PML-R truncado)
       // ========================================
-      addLog(`\n5️⃣ Verificando puntos totales (campo total_points de la DB)...`)
-      const userTotalPoints = node.total_points || 0
-      addLog(`📊 Puntos totales del usuario (total_points): ${userTotalPoints}`)
+      addLog(`\n5️⃣ Calculando puntos totales (PML truncado + PML-R truncado)...`)
+      
+      // Los puntos totales son la suma de PML truncado + PML-R truncado
+      const puntosTotalesCalculados = pmlTruncado + pmlrTruncado
+      
+      addLog(`📊 PML truncado: ${pmlTruncado} puntos`)
+      addLog(`📊 PML-R truncado: ${pmlrTruncado} puntos`)
+      addLog(`📊 Puntos totales calculados: ${pmlTruncado} + ${pmlrTruncado} = ${puntosTotalesCalculados}`)
       addLog(`📊 Puntos requeridos para ${rankLimitSimple.rank}: ${rankLimitSimple.threshold_points}`)
       
-      // Validar usando el campo total_points directamente
-      if (userTotalPoints >= rankLimitSimple.threshold_points) {
+      // Validar usando los puntos totales calculados (PML truncado + PML-R truncado)
+      if (puntosTotalesCalculados >= rankLimitSimple.threshold_points) {
         // ========================================
         // RESUMEN: TODOS LOS REQUISITOS CUMPLIDOS
         // ========================================
         addLog(`\n✅ RESUMEN DE VALIDACIÓN PARA ${rankLimitSimple.rank}:`)
         addLog(`   ✅ Reconsumo: ${node.reconsumo || 0} >= ${rankLimitSimple.reconsumo_required}`)
         addLog(`   ✅ Líneas Activas: ${activeLines} >= ${rankLimitSimple.minimum_frontals}`)
-        addLog(`   ✅ PML (brazo mayor): ${pml} >= ${rankLimitSimple.maximum_large_leg}`)
-        addLog(`   ✅ PML-R (líneas menores + reconsumo): ${pmlr} >= ${rankLimitSimple.maximum_others_leg}`)
-        addLog(`   ✅ Puntos Totales (total_points): ${userTotalPoints} >= ${rankLimitSimple.threshold_points}`)
+        addLog(`   ✅ PML (brazo mayor sin truncar): ${pml} >= ${rankLimitSimple.maximum_large_leg}`)
+        addLog(`   ✅ PML-R (líneas menores + reconsumo sin truncar): ${pmlr} >= ${rankLimitSimple.maximum_others_leg}`)
+        addLog(`   ✅ Puntos Totales (PML truncado + PML-R truncado): ${puntosTotalesCalculados} >= ${rankLimitSimple.threshold_points}`)
         addLog(`\n🎉 RANGO ASIGNADO: ${rankLimitSimple.rank}`)
         return rankLimitSimple.rank
       }
       
-      addLog(`❌ No cumple puntos totales: ${userTotalPoints} < ${rankLimitSimple.threshold_points}`)
-      addLog(`💡 El usuario necesita ${rankLimitSimple.threshold_points} puntos totales, pero solo tiene ${userTotalPoints}`)
+      addLog(`❌ No cumple puntos totales: ${puntosTotalesCalculados} < ${rankLimitSimple.threshold_points}`)
+      addLog(`💡 El usuario necesita ${rankLimitSimple.threshold_points} puntos totales (PML truncado + PML-R truncado), pero solo tiene ${puntosTotalesCalculados}`)
       return null
     }
 

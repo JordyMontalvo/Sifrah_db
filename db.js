@@ -41,6 +41,15 @@ class Model {
     return client.close()
   }
 
+  async insertMany(elements) {
+    const client = new Client(URL, { useUnifiedTopology: true })
+    const conn   = await client.connect()
+    const db     = conn.db(name)
+    const result = await db.collection(this.collection).insertMany(elements)
+    client.close()
+    return result
+  }
+
   async updateOne(q, vals) {
     const client = new Client(URL, { useUnifiedTopology: true })
     const conn   = await client.connect()
@@ -55,6 +64,15 @@ class Model {
     const db     = conn.db(name)
     await db.collection(this.collection).updateMany(q, { $set: vals })
     return client.close()
+  }
+
+  async bulkWrite(operations) {
+    const client = new Client(URL, { useUnifiedTopology: true })
+    const conn   = await client.connect()
+    const db     = conn.db(name)
+    const result = await db.collection(this.collection).bulkWrite(operations)
+    client.close()
+    return result
   }
   
   async deleteOne(q) {

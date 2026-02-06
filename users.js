@@ -11,27 +11,40 @@ async function main() {
   // const users = await User.find({ dni: { $in: dnis } })
   const users = await User.find({})
 
+  // OPTIMIZACIÓN: Agrupar actualizaciones en operaciones bulk
+  const updates = []
+
   for (user of users) {
 
     console.log(user.name, user.lastName, user.dni)
     console.log(user.plan)
 
-    await User.updateOne({ id: user.id }, {
-      
-      // plan: "standard",
-      // // affiliation_points: 80,
-      // n: 7,
-      // // activated: true,
-      
-      
-      affiliation_points: 0,
-      points: 0,
-      _activated: false,
-      activated: false,
-      total_points: 0,
-      rank: 'none',
-      
+    // Preparar operación de actualización para bulk
+    updates.push({
+      updateOne: {
+        filter: { id: user.id },
+        update: {
+          $set: {
+            // plan: "standard",
+            // // affiliation_points: 80,
+            // n: 7,
+            // // activated: true,
+            
+            affiliation_points: 0,
+            points: 0,
+            _activated: false,
+            activated: false,
+            total_points: 0,
+          }
+        }
+      }
     })
+  }
+
+  // OPTIMIZACIÓN: Ejecutar todas las actualizaciones en un solo batch
+  if (updates.length > 0) {
+    await User.bulkWrite(updates)
+    console.log(`\n✅ Actualizados ${updates.length} usuarios en batch`)
   }
 }
 
