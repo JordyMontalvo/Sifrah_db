@@ -21,36 +21,46 @@ function rand() { return Math.random().toString(36).substr(2) }
 // ========================================
 
 /**
- * Tabla de porcentajes del bono residual por nivel
- * Estos porcentajes son iguales para todos los rangos
+ * Tabla de porcentajes del bono residual por RANGO y NIVEL.
+ * 
+ * Cada rango tiene su propia lista de porcentajes (uno por nivel 1-9).
+ * Un valor de 0 significa que ese nivel no genera bono para ese rango.
+ * 
+ * Fuente: tabla de rangos SIFRAH (actualizada marzo 2026)
+ * 
+ * Nivel:          1      2      3      4      5      6      7      8      9
  */
-const RESIDUAL_PERCENTAGES = [
-  0.1563,  // Nivel 1: 15.63%
-  0.1563,  // Nivel 2: 15.63%
-  0.1875,  // Nivel 3: 18.75%
-  0.0938,  // Nivel 4: 9.38%
-  0.0625,  // Nivel 5: 6.25%
-  0.0313,  // Nivel 6: 3.13%
-  0.0313,  // Nivel 7: 3.13%
-  0.0188,  // Nivel 8: 1.88%
-  0.0063,  // Nivel 9: 0.63%
-]
+const RESIDUAL_PERCENTAGES_BY_RANK = {
+  'ACTIVO':           [0.15,  0.15,  0,     0,     0,     0,     0,     0,     0    ],
+  'BRONCE':           [0.15,  0.15,  0.15,  0.05,  0,     0,     0,     0,     0    ],
+  'PLATA':            [0.15,  0.15,  0.15,  0.10,  0.05,  0,     0,     0,     0    ],
+  'ORO':              [0.15,  0.15,  0.15,  0.15,  0.05,  0.05,  0,     0,     0    ],
+  'RUBÍ':             [0.15,  0.15,  0.15,  0.15,  0.10,  0.05,  0.025, 0,     0    ],
+  'ESMERALDA':        [0.15,  0.15,  0.15,  0.15,  0.10,  0.05,  0.025, 0.025, 0.01 ],
+  'DIAMANTE':         [0.15,  0.15,  0.15,  0.15,  0.10,  0.075, 0.025, 0.025, 0.01 ],
+  'DOBLE DIAMANTE':   [0.15,  0.15,  0.15,  0.15,  0.10,  0.075, 0.05,  0.025, 0.01 ],
+  'TRIPLE DIAMANTE':  [0.15,  0.15,  0.15,  0.15,  0.10,  0.075, 0.05,  0.025, 0.025],
+  'DIAMANTE IMPERIAL':[0.15,  0.15,  0.15,  0.15,  0.10,  0.075, 0.05,  0.05,  0.025],
+  'EMBAJADOR SIFRAH': [0.15,  0.15,  0.15,  0.15,  0.10,  0.075, 0.05,  0.05,  0.05 ],
+  'none':             [],
+}
 
 /**
  * Profundidad máxima de cobro según rango
+ * (Nivel máximo al que puede cobrar residual)
  */
 const MAX_DEPTH_BY_RANK = {
-  'none': 0,
-  'ACTIVO': 2,
-  'BRONCE': 4,
-  'PLATA': 5,
-  'ORO': 6,
-  'RUBÍ': 7,
-  'ESMERALDA': 9,
-  'DIAMANTE': 9,
-  'DOBLE DIAMANTE': 9,
-  'TRIPLE DIAMANTE': 9,
-  'DIAMANTE IMPERIAL': 9,
+  'none':             0,
+  'ACTIVO':           2,
+  'BRONCE':           4,
+  'PLATA':            5,
+  'ORO':              6,
+  'RUBÍ':             7,
+  'ESMERALDA':        9,
+  'DIAMANTE':         9,
+  'DOBLE DIAMANTE':   9,
+  'TRIPLE DIAMANTE':  9,
+  'DIAMANTE IMPERIAL':9,
   'EMBAJADOR SIFRAH': 9,
 }
 
@@ -60,6 +70,9 @@ const MAX_DEPTH_BY_RANK = {
  */
 const TOPE_PUNTOS = 160
 const REDUCCION_EXCESO = 0.6 // 60% del porcentaje original
+
+// Mantener compatibilidad: RESIDUAL_PERCENTAGES como el de Embajador (máximo)
+const RESIDUAL_PERCENTAGES = RESIDUAL_PERCENTAGES_BY_RANK['EMBAJADOR SIFRAH']
 
 // ========================================
 // FUNCIONES AUXILIARES
@@ -168,8 +181,11 @@ function calculateUnilevelResidualBonus(userNode, tree, addLog = null) {
   const userRank = userNode.rank || 'none'
   const maxDepth = MAX_DEPTH_BY_RANK[userRank] || 0
   
-  // Si no tiene rango válido, retornar sin logs
-  if (maxDepth === 0) {
+  // Seleccionar la tabla de porcentajes según el rango del usuario
+  const rankPercentages = RESIDUAL_PERCENTAGES_BY_RANK[userRank] || []
+  
+  // Si no tiene rango válido o no hay porcentajes, retornar sin logs
+  if (maxDepth === 0 || rankPercentages.length === 0) {
     return {
       totalBonus: 0,
       bonusDetails: []
@@ -187,12 +203,18 @@ function calculateUnilevelResidualBonus(userNode, tree, addLog = null) {
     // El nivel efectivo es 1-indexed, convertir a 0-indexed para array
     const levelIndex = effectiveLevel - 1
     
-    if (levelIndex < 0 || levelIndex >= RESIDUAL_PERCENTAGES.length) {
+    if (levelIndex < 0 || levelIndex >= rankPercentages.length) {
       continue // Nivel fuera del rango permitido
     }
     
+    const percentage = rankPercentages[levelIndex]
+    
+    // Si el porcentaje es 0 para este nivel en este rango, no genera bono
+    if (!percentage || percentage === 0) {
+      continue
+    }
+    
     const pr = node.points || 0 // Solo puntos de reconsumo
-    const percentage = RESIDUAL_PERCENTAGES[levelIndex]
     const bonus = calculateResidualBonus(pr, percentage)
     
     // Solo agregar a detalles si genera bono (bonus > 0)
@@ -389,6 +411,7 @@ module.exports = {
   calculateUnilevelResidualBonus,
   calculateAllResidualBonuses,
   RESIDUAL_PERCENTAGES,
+  RESIDUAL_PERCENTAGES_BY_RANK,
   MAX_DEPTH_BY_RANK,
   TOPE_PUNTOS,
   REDUCCION_EXCESO

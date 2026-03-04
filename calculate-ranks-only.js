@@ -93,47 +93,36 @@ async function main() {
   console.log('')
 
   // ========================================
-  // PASO 3: CALCULAR PUNTOS TOTALES POR AFILIADOS DIRECTOS ACTIVOS
+  // PASO 3: CARGAR PUNTOS DESDE LA BASE DE DATOS
   // ========================================
-  console.log('💰 Calculando puntos totales por afiliados directos activos...')
+  // total_points ya fue calculado por closed.js aplicando el V.M.P (pierna mayor truncada).
+  // Aquí solo se carga ese valor y se construye total_arr (las piernas directas)
+  // para uso interno (conteo de líneas activas y V.M.P display en logs).
+  console.log('💰 Cargando puntos y construyendo piernas directas...')
   
   for (let node of tree) {
-    // Inicializar contadores para este nodo
-    node.total_points = 0
+    // Cargar total_points desde DB (ya calculado con V.M.P por closed.js)
+    const user = users.find(u => u.id === node.id)
+    node.total_points = user ? (user.total_points || 0) : 0
+
+    // Construir total_arr: puntos de cada pierna directa (para calcular líneas activas y VMP)
     node.total_arr = []
 
-    // Obtener afiliados directos usando el campo childs del árbol
     if (node.childs && node.childs.length > 0) {
-      // Buscar los usuarios correspondientes a los IDs en childs
       const directUsers = users.filter(u => node.childs.includes(u.id))
       
-      addLog(`DEBUG PUNTOS - Usuario ${node.name} tiene ${node.childs.length} hijos: ${JSON.stringify(node.childs)}`)
-      addLog(`DEBUG PUNTOS - Encontrados ${directUsers.length} usuarios directos`)
-      
-      // Procesar cada usuario directo
       for (let directUser of directUsers) {
-        // Se considera línea activa si total_points es diferente de cero
         const userTotalPoints = directUser.total_points || 0
-        const isActiveLine = userTotalPoints !== 0
-        
-        addLog(`DEBUG PUNTOS - Usuario directo ${directUser.name}: total_points=${userTotalPoints}`)
-        
-        if (isActiveLine) {
-          // Usar total_points de la DB (ya incluye puntos personales + afiliación)
-          node.total_points += userTotalPoints
+        if (userTotalPoints !== 0) {
           node.total_arr.push(userTotalPoints)
-          addLog(`DEBUG PUNTOS - AGREGADO: ${directUser.name} con ${userTotalPoints} puntos (línea activa)`)
-        } else {
-          addLog(`DEBUG PUNTOS - NO AGREGADO: ${directUser.name} (total_points=${userTotalPoints} === 0)`)
         }
       }
-    } else {
-      addLog(`DEBUG PUNTOS - Usuario ${node.name} no tiene hijos`)
+      
+      // Ordenar de mayor a menor
+      node.total_arr.sort((a, b) => b - a)
     }
 
-    // Ordenar puntos de mayor a menor para facilitar cálculos posteriores
-    node.total_arr.sort((a, b) => b - a)
-    addLog(`DEBUG PUNTOS - Total puntos para ${node.name}: ${node.total_points}, array: ${JSON.stringify(node.total_arr)}`)
+    addLog(`DEBUG PUNTOS - ${node.name}: total_points (DB)=${node.total_points}, piernas=[${node.total_arr.join(', ')}]`)
   }
 
   console.log('')
