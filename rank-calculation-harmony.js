@@ -62,7 +62,8 @@ function contarPiernasConRango(usuario, todosUsuarios, rangosCalculados, rangoRe
     return 0
   }
 
-  const idRangoRequerido = ranksHarmony.find(r => r.name === rangoRequerido)?.id || 0
+  const _rangoMatch = ranksHarmony.find(r => r.name === rangoRequerido)
+  const idRangoRequerido = _rangoMatch ? _rangoMatch.id : 0
   let piernasConRango = 0
 
   for (const directoId of usuario.directos) {
@@ -248,7 +249,8 @@ function generarReporte(usuarios, rangosCalculados) {
 
   for (const usuario of usuarios) {
     const rangoId = rangosCalculados[usuario.id] || 0
-    const rangoNombre = ranksHarmony.find(r => r.id === rangoId)?.name || 'ACTIVO'
+    const _rn = ranksHarmony.find(r => r.id === rangoId)
+    const rangoNombre = _rn ? _rn.name : 'ACTIVO'
     const pp = calcularPP(usuario)
     const pg = obtenerPG(usuario)
 
