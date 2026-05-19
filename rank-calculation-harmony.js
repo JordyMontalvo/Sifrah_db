@@ -4,7 +4,7 @@
  * Nuevo sistema Unilevel con:
  * - PP (Puntaje Personal): max(puntos_productos, puntos_afiliacion)
  * - PG (Puntaje Grupal): total del grupo sin puntos propios (el caller suele pasar total_points − PP)
- * - Activos Directos: directos con PP >= 180
+ * - Activos Directos: directos con activated=true (sin _activated) o PP >= 180 (al menos uno)
  * - Rangos Directos: directos que alcanzaron el rango requerido en el cierre evaluado
  */
 
@@ -28,9 +28,25 @@ function obtenerPG(usuario) {
   return usuario.total_points || 0
 }
 
+function isActivoDbFlag(value) {
+  return (
+    value === true ||
+    value === 1 ||
+    value === "true" ||
+    value === "TRUE" ||
+    value === "1"
+  )
+}
+
+function isUsuarioActivoHarmony(usuario) {
+  if (!usuario) return false
+  const pp = calcularPP(usuario)
+  return isActivoDbFlag(usuario.activated) || pp >= 180
+}
+
 /**
  * Cuenta los Activos Directos de un usuario
- * Activo Directo = directo con PP >= 180
+ * Activo Directo = directo con activated=true o PP >= 180 (al menos uno)
  */
 function contarActivosDirectos(usuario, todosUsuarios) {
   if (!usuario.directos || usuario.directos.length === 0) {
@@ -41,11 +57,8 @@ function contarActivosDirectos(usuario, todosUsuarios) {
   
   for (const directoId of usuario.directos) {
     const directo = todosUsuarios.find(u => u.id === directoId)
-    if (directo) {
-      const ppDirecto = calcularPP(directo)
-      if (ppDirecto >= 180) {
-        activosDirectos++
-      }
+    if (directo && isUsuarioActivoHarmony(directo)) {
+      activosDirectos++
     }
   }
 
@@ -274,6 +287,7 @@ function generarReporte(usuarios, rangosCalculados) {
 module.exports = {
   calcularPP,
   obtenerPG,
+  isUsuarioActivoHarmony,
   contarActivosDirectos,
   contarPiernasConRango,
   cumpleRequisitosRango,
