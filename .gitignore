@@ -4,3 +4,6 @@ node_modules
 /dump/
 
 mongo.txt
+# Salidas de ejecucion con datos reales de socios (nombres, DNI, genealogia).
+# Son artefactos regenerables: no deben versionarse.
+*_logs_*.txt
